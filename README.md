@@ -16,8 +16,11 @@ Compiling, Training, and Evaluating the Model:
 * Ending with 2 layers, activation relu and sigmoid, this model did not improve. Editing one feature at a time, I saw no change, or a decrease in accuracy of the model.
 ![image](https://user-images.githubusercontent.com/106329824/195593216-9fbeae45-51f5-4dca-aad7-21e03cb02b82.png)
 * With the target being 75% accurate, and the model not reaching above 72.8%, I was not able to achieve the target model performance.
+![Before Optimizing](https://user-images.githubusercontent.com/106329824/195596493-dc3da10f-47a6-45ad-a842-9b8dc240c152.png)
+
 *  The efforts to create more efficiency are adding more layers, taking a layer away, changing the type of scaler, changing the types of activations, and changing the number of epochs.
-![image](https://user-images.githubusercontent.com/106329824/195593346-53d85e84-9259-44a3-832b-0867dc3f795d.png)
+![After Optimizing](https://user-images.githubusercontent.com/106329824/195596808-4bba2640-95df-44d9-96a4-ea3c6f1a4191.png)
+
 
 ## Summary
 * Overall, the model was successful. With over 70% accuracy, this model would be able to give some information on which charities would succeed.
